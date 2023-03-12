@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div>
+				<img
+					src="https://funart.pro/uploads/posts/2021-07/1626269438_28-funart-pro-p-raznie-porodi-koshek-zhivotnie-krasivo-fot-31.jpg"
+					width="300"
+				/>
+				<h2>
+					<span style="color: blueviolet">
+						ЛЮБИТЕ КОТИКОВ? МЫ ТОЖЕ!</span
+					>
+				</h2>
+			</div>
+			<form>
+				<div>
+					<p>
+						Расскажите о вашем любимом питомце и мы откроем вам
+						забавные факты о вашем лучшем друге
+					</p>
+					<input
+						class="names"
+						type="text"
+						name="petname"
+						placeholder="Кличка питомца"
+						required
+					/><br />
+					<input
+						class="names"
+						type="text"
+						name="Ownername"
+						placeholder="Имя и контакты владельца"
+						required
+					/><br />
+				</div>
+				<div>
+					<p>Порода:</p>
+					<select name="cat__breed">
+						<option value="scottish">Шотландская</option>
+						<option value="british">Британская</option>
+						<option value="siberian">Сибирская</option>
+						<option value="siamese">Сиамская</option>
+						<option value="other">Другой вариант</option>
+					</select>
+				</div>
+				<div>
+					<p>Чем питается:</p>
+					<input type="checkbox" name="foodtype" value="dry" />Сухой
+					корм<br />
+					<input type="checkbox" name="foodtype" value="wet" />Влажный
+					корм<br />
+					<input
+						type="checkbox"
+						name="foodtype"
+						value="natural"
+					/>Натуральный корм<br />
+				</div>
+				<div>
+					<p>Укажите пол питомца</p>
+					<input type="radio" name="gender" value="male" required />
+					<span>Кот</span><br />
+					<input type="radio" name="gender" value="female" required />
+					<span>Кошка</span><br />
+				</div>
+				<div>
+					<p>
+						Особенности характера и повадки вашего пушистого друга:
+					</p>
+				</div>
+				<div>
+					<textarea rows="7" cols="50" maxlength="400"></textarea>
+				</div>
+				<div>
+					<p>Фото котка (по желанию)</p>
+					<input type="file" />
+				</div>
+				<p>
+					<input type="checkbox" required name="terms" /> Я принимаю
+					<u>Условия и Правила</u>
+				</p>
+				<div>
+					<button class="btn-submit" type="submit">Сохранить</button>
+				</div>
+			</form>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

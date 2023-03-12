@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+#search_gif {
+	display: block;
+	width: 400px;
+	height: 30px;
+}
+.search-btn {
+	height: 30px;
+}
+.delete-btn {
+	height: 30px;
+}
+.result-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: -webkit-fit-content;
+	height: -moz-fit-content;
+	height: fit-content;
+}
+img {
+	width: 300px;
+	height: 250px;
+}

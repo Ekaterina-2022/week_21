@@ -1,0 +1,14 @@
+body {
+	background-color: antiquewhite;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+input.names:valid {
+	border: 3px solid green;
+}
+input.names:invalid {
+	border: 1px dashed green;
+}

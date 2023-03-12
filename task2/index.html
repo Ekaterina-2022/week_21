@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+        <link rel="stylesheet" href="assets/normilize.css">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <body>
+    <div class="container-wrapper">
+        <div class="container" id="containerMain">
+            <div class="container-logo">
+                <div class="logo-img">
+                    <img
+                        src="assets/TSMathsHub_logo.png"
+                        alt=""
+                        width="450"
+                    />
+                </div>
+                <hr />
+                <div class="logo-title">
+                    <p>
+                        Register for free to get access to hundreds <br />
+                        of great, free resources
+                    </p>
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <form novalidate>
+                    <div class="error" id="errorBanner"></div>
+                    <div class="form-names">
+                        <div class="form-name column">
+                            <label for="first-name-input">First Name</label>
+                            <input
+                                type="text"
+                                name="first-name-input"
+                                class="input"
+                                id="firstName"
+                                placeholder="Name"
+                            />
+                        </div>
+                        <div class="form-name">
+                            <label for="last-name-input">Last Name</label>
+                            <input
+                                type="text"
+                                name="last-name-input"
+                                class="input"
+                                id="lastName"
+                                placeholder="Surname"
+                            />
+                        </div>
+                    </div>
+                    <div class="column">
+                        <label for="country">Country</label>
+                        <input
+                            name="country-input"
+                            id="country"
+                            class="input"
+                            placeholder="Country"
+                        />
+                    </div>
+                    <div class="column">
+                        <label for="job">Job Title</label>
+                        <input
+                            type="text"
+                            name="job-input"
+                            id="job"
+                            class="input"
+                            placeholder="Job"
+                        />
+                    </div>
+                    <div class="column">
+                        <label for="school">Your School</label>
+                        <input type="text" id="school" class="input" placeholder="school" />
+                    </div>
+                    <div class="column">
+                        <label for="eadress">Email Address</label>
+                        <input type="email" class="input" id="eadress" />
+                    </div>
+                    <div class="column">
+                        <label for="password">Password</label>
+                        <input
+                            type="password"
+                            class="input"
+                            id="password"
+                            maxlength="15"
+                            pattern = "[0-9]{10}";
+                        />
+                    </div>
+                    <div class="register-btn">
+                        
+                        <button
+                            class="reg-btn"
+                            type="submit"
+                            id="regButton"
+                        >
+                            Register Now
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="error-info"></div>
+            <div>
+                <div class="email">
+                    Trouble signing up? Email
+                    <a class="email" href="hello@thirdspacelearning.com">
+                        hello@thirdspacelearning.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
